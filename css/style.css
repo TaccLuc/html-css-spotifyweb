@@ -1,0 +1,19 @@
+body *{
+    color: white;
+}
+
+/* 
+    HEADER
+*/
+
+.header-banner{
+    background-color: black;
+}
+
+/* 
+    FOOTER
+*/
+
+.footer-banner{
+    background-color: #282828;
+}
