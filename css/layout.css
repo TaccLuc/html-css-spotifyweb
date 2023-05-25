@@ -56,3 +56,8 @@ main{
     height: 6.25rem;
     z-index: 999;
 }
+
+.footer-controls{
+    display: flex;
+    justify-content: space-between;
+}
