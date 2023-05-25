@@ -3,11 +3,28 @@ body *{
 }
 
 /* 
+    GENERAL
+*/
+
+.naked-button{
+
+}
+
+
+/* 
     HEADER
 */
 
+#logo-small{
+    display: none;
+}
+
 .header-banner{
     background-color: black;
+}
+
+.header-column > div > *{
+    display: block;
 }
 
 /* 

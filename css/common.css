@@ -34,12 +34,27 @@ body{
     .header-banner{
         width: 3.125rem;
     }
+
+    .header-column > div .mobile-hidden{
+        display: none;
+    }
+
+    /* MAIN */
+
+    .main-top-banner{
+        left: 3.125rem;
+    }
+    .main-container{
+        margin-left: 3.125rem;
+    }
 }
 
 
 /* 
     DEBUG
  */
+
+
 
  .debug main{
     height: calc(100vh - 6.25rem);
