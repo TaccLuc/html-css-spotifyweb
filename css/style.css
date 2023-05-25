@@ -5,6 +5,9 @@ body *{
 /* 
     GENERAL
 */
+.button{
+
+}
 
 .naked-button{
 
@@ -22,14 +25,21 @@ body *{
     display: none;
 }
 
-.header-banner{
-    background-color: black;
-}
-
 .header-column > div > *{
     display: block;
 }
 
+/* 
+    MAIN
+*/
+
+.main-top-banner{
+    text-align: right;
+}
+
+.main-nav li{
+    display: inline-block;
+}
 /* 
     FOOTER
 */

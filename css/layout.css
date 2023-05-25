@@ -1,4 +1,11 @@
 /* 
+    GENERAL
+*/
+body{
+    background-color: #141922;
+}
+
+/* 
     HEADER
 */
 
@@ -8,7 +15,9 @@
     left: 0;
     width: 14rem;
     height: calc(100vh - 6.25rem);
+    background-color: black;
 }
+
 
 .header-column{
     display: flex;
@@ -32,16 +41,40 @@ main{
 
 .main-container{
     margin-left: 14rem;
+    width: calc(100% - 14rem);
+    padding-bottom: 10rem;
 }
 
 .main-top-banner{
     position: fixed;
     top: 0;
     left: 14rem;
-    width: 100%;
+    width: calc(100% - 14rem);
     height: 5rem;
     background-color: rgba(0, 0, 0, .5);
     z-index: 999;
+}
+
+.main-nav{
+    padding-top: 5.5rem;
+    text-align: center;
+}
+
+.main-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-row:not(:first-of-type){
+    justify-content: flex-start;
+}
+
+.main-row img{
+    width: 90%
+}
+
+.main-col{
+    width: calc(100% / 6);
 }
 
 /* 

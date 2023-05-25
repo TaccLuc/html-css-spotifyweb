@@ -21,10 +21,20 @@ body{
 
 @media screen and (max-width: 1100px){
     
+    .main-row{
+        flex-wrap: wrap;
+    }
+
+    .main-col{
+        width: calc(100% / 4);
+    }
 }
 
 @media screen and (max-width: 700px){
     
+    .main-col{
+        width: calc(100% / 2);
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -42,19 +52,11 @@ body{
     /* MAIN */
 
     .main-top-banner{
+        width: calc(100% - 3.125rem);
         left: 3.125rem;
     }
     .main-container{
         margin-left: 3.125rem;
+        width: calc(100% - 3.125rem);
     }
 }
-
-
-/* 
-    DEBUG
- */
-
- .debug main{
-    height: calc(100vh - 6.25rem);
- }
-
