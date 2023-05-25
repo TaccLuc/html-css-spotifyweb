@@ -5,8 +5,15 @@ body *{
 /* 
     GENERAL
 */
-.button{
+a{
+    text-decoration: none;
+}
 
+.button{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 1.875rem;
+    padding: 0.8rem 2rem;
 }
 
 .naked-button{
@@ -33,12 +40,104 @@ body *{
     MAIN
 */
 
+/* MAIN BANNER & NAV */
 .main-top-banner{
     text-align: right;
+    padding: 1.25rem;
+}
+
+.main-top-banner button{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.main-top-banner button:hover{
+    transform:scale(1.1,1.1);
 }
 
 .main-nav li{
     display: inline-block;
+    padding: 0 1rem;
+}
+
+.main-nav li a{
+    color: rgb(128, 129, 131);
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative
+}
+
+.main-nav li a:hover:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: .1875rem;
+    background-color: #ADFF2F;
+    bottom: -0.3125rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+
+.main-nav li a:hover {
+    color: white;
+}
+
+/* MAIN CONTENT */
+
+main h3{
+    font-size: 1.5rem;
+}
+
+main h3:first-of-type{
+    margin-bottom: 2rem;
+}
+
+main h5{
+    color: rgb(156, 158, 161);
+}
+
+.main-container > h5{
+    margin-bottom: 2rem;
+    margin-top: 0.8rem;
+}
+
+.main-row{
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.main-col h4{
+    margin: 0.5rem 0;
+}
+
+.overlay-container{
+    position: relative;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.664);
+    z-index: 1;
+    display: none;
+} 
+
+.overlay i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-container:hover .overlay{
+    display: block;
 }
 /* 
     FOOTER
