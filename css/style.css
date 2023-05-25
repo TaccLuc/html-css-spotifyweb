@@ -60,12 +60,128 @@ a{
     HEADER
 */
 
+header *{
+    color: rgb(125, 125, 126);
+}
+
+#logo{
+    width: 70%;
+    padding: 2rem 0;
+}
+
 #logo-small{
     display: none;
 }
 
-.header-column > div > *{
+.header-nav nav{
+    margin-bottom: 2rem;
+}
+
+.header-nav li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.header-nav li:not(:first-of-type) a:hover span{
+    color:white;
+}
+
+.header-nav li:not(:first-of-type) a:hover:after {
+    content: '';
+    position: absolute;
+    width: .125rem;
+    height: 1.5rem;
+    background-color: #ADFF2F;
+    bottom: 0;
+    left: -1rem;
+    margin: auto;
     display: block;
+}
+
+.create-pl div{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.create-pl button{
+    cursor: pointer;
+}
+
+.create-pl button:hover > *{
+    color:white
+}
+
+.create-pl button i{
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    
+}
+
+.create-pl button span{
+    font-weight: 800;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+.playlist-list div{
+    color:white;
+}
+
+.playlist-list a{
+    display: block;
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.playlist-list a:hover{
+    color:white;
+}
+
+.header-user{
+    background-color: black;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.header-user a:first-of-type div{
+    height:1.2rem;
+    width: 1.2rem;
+    border: 1px solid rgb(125, 125, 126);
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: .15rem;
+}
+
+.header-user a:first-of-type:hover  *{
+    color:white;
+    border-color: white;
+}
+
+.header-user hr{
+    margin: 1rem 0;
+    width: 80%;
+}
+
+.header-user a:last-of-type > *{
+    color: white;
+    margin-right: 0.5rem;
+    font-weight: 700;
+}
+
+.header-user a:last-of-type:hover  i{
+    transform: scale(1.1,1.1);
+}
+
+.header-user a:last-of-type:hover  span{
+    text-decoration: underline;
 }
 
 /* 

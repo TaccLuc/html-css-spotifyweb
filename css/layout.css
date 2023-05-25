@@ -16,19 +16,18 @@ body{
     width: 14rem;
     height: calc(100vh - 6.25rem);
     background-color: black;
-}
-
-
-.header-column{
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    
+    padding-left: 1.5rem;
 }
 
 .header-nav{
-    min-height: calc(50vh - 6.25rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 6.25rem);
+}
+
+.playlist-list{
+    overflow: auto;
 }
 
 /* 
