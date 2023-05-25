@@ -97,4 +97,29 @@ main{
 .footer-controls{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-col{
+    width: 25%;
+}
+
+.footer-col-big{
+    width: 50%;
+    text-align: center;
+}
+
+.footer-flex{
+    display: flex;
+    align-items: center;
+}
+  
+.footer-flex:not(.now-playing){
+    justify-content: flex-end;
+}
+
+.control-buttons.footer-flex,
+.play-time.footer-flex{
+    justify-content: center;
 }

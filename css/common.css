@@ -32,8 +32,48 @@ body{
 
 @media screen and (max-width: 700px){
     
+    /* MAIN */
+
     .main-col{
-        width: calc(100% / 2);
+        width: calc((100% / 2) - 2rem);
+    }
+
+    /* FOOTER */
+
+    .footer-controls{
+        padding: 0 0.5rem;
+    }
+
+    .footer-controls img{
+        height: 25px;
+        width: 25px;
+    }
+
+    .now-playing h5{
+        font-size: 0.5rem;
+    }
+
+    .now-playing div:nth-child(2){
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .now-playing div i{
+        font-size: 0.8rem;
+    }
+    
+    .footer-col:last-of-type .footer-flex{
+        flex-wrap: wrap;
+    }
+    
+    .footer-col:last-of-type button{
+        margin-right: 0.3rem;
+        font-size: 0.7rem;
+    }
+
+    .footer-col:last-of-type .playbar {
+        max-width: 5rem;
+        padding-right: 1rem;
+        margin-left: -1rem;
     }
 }
 
