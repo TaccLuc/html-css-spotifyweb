@@ -23,7 +23,7 @@ a{
 }
 
 .playbar {
-    flex: 1;
+    flex: 0.5;
 }
 
 .track {

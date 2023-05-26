@@ -79,6 +79,13 @@ body{
 
 @media screen and (max-width: 600px){
     
+    /* 
+        GENERALE
+    */
+    
+    .playbar {
+        flex: 0.9;
+    }
     /* HEADER */
 
     .header-banner{
