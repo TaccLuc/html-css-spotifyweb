@@ -22,12 +22,13 @@ body{
 .header-nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: calc(100vh - 6.25rem);
+    height: 100%;
 }
 
 .playlist-list{
-    overflow: auto;
+    min-height: 0;
+    overflow: auto; 
+    flex: 1;
 }
 
 /* 
@@ -83,7 +84,10 @@ main{
 /* 
     FOOTER
 */
-
+.pusher{
+    width: 100%;
+    height: 6.25rem;
+}
 .footer-banner{
     position: fixed;
     bottom: 0;

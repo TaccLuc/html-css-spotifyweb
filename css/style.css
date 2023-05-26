@@ -128,6 +128,7 @@ header *{
     vertical-align: middle;
 }
 
+
 .playlist-list div{
     color:white;
 }
@@ -145,7 +146,6 @@ header *{
 
 .header-user{
     background-color: black;
-    width: 100%;
     margin-bottom: 1rem;
 }
 
