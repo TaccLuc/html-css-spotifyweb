@@ -5,6 +5,7 @@ body *{
 /* 
     GENERAL
 */
+
 a{
     text-decoration: none;
 }
@@ -40,11 +41,11 @@ a{
     position: relative;
 }
 
-.meter:hover{
+.track:hover .meter{
     background-color: #ADFF2F;
 }
 
-.meter:hover:after{
+.track:hover .meter:after{
     content:"";
     display: inline-block;
     width: 1rem;
@@ -349,6 +350,7 @@ main h5{
 .play-time{
     margin-top: 0.7rem;
 }
+
 .play-time span{
     font-size: 0.7rem;
 }
