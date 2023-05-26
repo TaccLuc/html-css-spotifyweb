@@ -262,6 +262,10 @@ main h5{
     margin: 0.5rem 0;
 }
 
+.artists .overlay-container > *{
+    border-radius: 50%;
+}
+
 .overlay-container{
     position: relative;
     cursor: pointer;
